@@ -1,0 +1,38 @@
+body{ background-color: rgb(209, 187, 183);
+
+
+}
+h1{ background-color: aqua;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+text-shadow: 1px 1px 1px red;
+#box1{
+    height: 20pc;
+    width; 20pc  ;
+    background-color: blanchedalmond;
+    box-shadow: 1cm;
+    margin: auto;
+
+}
+}
+p{background-color: bisque;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1em;
+font-weight: bold;
+font-style: oblique;
+
+margin: auto;
+}
+#pic1{
+float:right ;
+margin-left: 2ch;
+
+}
+
+#list{
+    display: block;
+}
+
+#iron{
+    display: block;
+}

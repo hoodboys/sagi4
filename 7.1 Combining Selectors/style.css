@@ -1,0 +1,21 @@
+h1{
+    color: purple;
+}/* Write your code here: */
+h2{
+    color: purple;
+}
+.box>.done{
+    color: red;
+
+}
+
+.list {
+    color: blue;
+}
+.done {
+    color: greenyellow;
+}
+p.done{
+    color: black;
+
+}

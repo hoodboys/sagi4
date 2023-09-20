@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: red;">counter to the end of the world </h1>
+    <h1 id="view"></h1>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="clear">clear</button>
+    <script>
+        const view =document.querySelector("#view");
+        const plus =document.querySelector("#plus");
+        const minus =document.querySelector("#minus");
+        const clear =document.querySelector("#clear");
+
+        let counter = 5;
+        plus.addEventListener("click", function () {
+            counter++;
+            console.log(counter);
+            upDateView();
+        })
+        minus.addEventListener("click", function () {
+            counter--;
+            console.log(counter);
+            upDateView();
+        })
+        clear.addEventListener("click", function () {
+            counter=0;
+            console.log(counter);
+            upDateView();
+        })
+        {
+            view.innerHTML = counter;
+            // plus.disabled = counter == 10 ;
+            minus.disabled = counter == 0 ;
+            if (counter == 10 ) {
+                plus.disabled = true 
+                
+            } else {
+                plus.disabled = false
+            }
+               
+
+
+        }
+        upDateView()
+    </script>
+    <style>
+
+    </style>
+</body>
+</html>
